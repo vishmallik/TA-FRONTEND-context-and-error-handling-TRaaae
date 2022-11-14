@@ -22,7 +22,7 @@ class App extends React.Component {
         >
           <Header />
           <Main />
-          <SwitchButton changeMode={this.changeMode} />
+          <SwitchButton />
         </UserContext.Provider>
       </div>
     );
